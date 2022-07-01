@@ -1,0 +1,647 @@
+.home-main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 48px;
+  margin-bottom: 48px;
+}
+
+.home1-main-container {
+  width: 90%;
+}
+
+.home1-profile-name-img-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.home1-profile-image {
+  width: 25%;
+  margin-right: 24px;
+}
+
+.home1-profile-name {
+  color: #181818;
+  font-size: 48px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+}
+
+.home1-profile-msg {
+  color: #909090;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+.home1-balances-container {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  margin: 24px;
+}
+
+.home1-day-balance-container {
+  width: 100%;
+  padding-top: 24px;
+  margin: 36px;
+}
+
+.home1-day {
+  font-size: 36px;
+  font-family: 'Bree Serif';
+}
+
+.home1-balance {
+  font-size: 54px;
+  font-family: 'Bree Serif';
+}
+
+.home1-balance-heading {
+  font-size: 20px;
+}
+
+.home1-invest-date-container {
+  width: 60%;
+  padding-top: 24px;
+  margin: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home1-balance-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.home1-balance-button {
+  width: 90%;
+  height: 80px;
+  background-color: #1c34ba;
+  color: #ffffff;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+
+span {
+  display: none;
+}
+
+.home1-transactions-container {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  margin: 24px;
+  padding: 24px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.hom1-transaction-heading {
+  color: #606060;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.home1-transactions-list {
+  list-style-type: none;
+  padding: 16px;
+}
+
+.home1-transaction-list-item {
+  margin-bottom: 24px;
+}
+
+.home1-transaction-list-date {
+  color: #909090;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-bottom: 12px;
+}
+
+.home1-transaction-list-msg {
+  color: #181818;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 756px) {
+  .home-main-container {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .home1-main-container {
+    width: 30%;
+    padding-left: 20px;
+    padding-top: 24px;
+  }
+
+  .home1-profile-image {
+    width: 23%;
+  }
+
+  .home1-profile-name {
+    font-size: 30px;
+  }
+
+  .home1-profile-msg {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .home1-balances-container {
+    margin: 8px;
+  }
+
+  .home1-day {
+    font-size: 26px;
+    font-weight: 500;
+  }
+
+  .home1-balance {
+    font-size: 36px;
+  }
+
+  .home1-balance-heading {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .home1-invest-date-container {
+    width: 100%;
+    padding-top: 0px;
+    margin: 34px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  span {
+    display: inline;
+  }
+
+  .balance {
+    font-size: 24px;
+  }
+
+  .a {
+    margin-top: 16px;
+  }
+
+  .home1-balance-button-container {
+    width: 50%;
+    margin: 18px;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .home1-balance-button {
+    height: 50px;
+    width: 80%;
+  }
+
+  .home1-transactions-container {
+    padding: 12px;
+    margin: 10px;
+  }
+
+  .hom1-transaction-heading {
+    font-size: 20px;
+  }
+
+  .home1-transactions-list {
+    padding: 8px;
+  }
+
+  .home1-transaction-list-date {
+    font-size: 16px;
+  }
+
+  .home1-transaction-list-msg {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+
+  .home1-transaction-list-item {
+    margin-bottom: 8px;
+  }
+}
+
+.home2-main-container {
+  width: 90%;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.home2-headings-container {
+  width: 100%;
+}
+
+.home2-retirement-heading {
+  color: #3269a8;
+  font-size: 24px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+}
+
+.home2-year-heading {
+  color: #212121;
+  font-size: 36px;
+  font-family: 'Bree Serif';
+  font-weight: 600;
+}
+
+.home2-goal-percent-income {
+  width: 100%;
+  margin-top: 36px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home2-goal-container {
+  width: 90%;
+}
+
+.home2-goals-headings {
+  color: #181818;
+  font-size: 36px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.home2-goals-description {
+  color: #909090;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+.hr-line2 {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+  width: 90%;
+}
+
+.home2-goal-achieve-container {
+  width: 45%;
+  margin-top: 36px;
+}
+
+.home2-bargraph-container {
+  width: 100%;
+  margin-top: 36px;
+}
+
+.home2-contributions-heading {
+  color: #181818;
+  font-size: 28px;
+  font-family: 'Bree Serif';
+  font-weight: 600;
+}
+
+.barchart-container {
+  width: 100%;
+  margin-top: 24px;
+}
+
+@media (min-width: 576px) {
+  .home2-main-container {
+    width: 60%;
+    min-height: 100vh;
+    padding-left: 20px;
+  }
+
+  .home2-retirement-heading {
+    font-size: 22px;
+  }
+
+  .home2-year-heading {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .home2-goal-container {
+    width: 30%;
+  }
+
+  .home2-goals-headings {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Bree Serif';
+  }
+
+  .home2-goals-description {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .home2-goal-achieve-container {
+    width: 30%;
+    margin-top: 0px;
+  }
+
+  .home2-contributions-heading {
+    font-size: 22px;
+  }
+}
+
+.home2-selects-piechart-container {
+  width: 100%;
+  margin-top: 32px;
+}
+
+.home2-selects-piechart-heading {
+  font-size: 24px;
+  font-family: 'Serif';
+  font-weight: 600;
+}
+
+.home2-selects-piechart-description {
+  color: #909090;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.home2-selects-container {
+  margin-top: 24px;
+}
+
+.home2-select-container {
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.home2-select-label {
+  color: #313131;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.home2-select-option {
+  width: 20%;
+  margin-left: 24px;
+}
+
+.home2-pie-charts-container {
+  margin-top: 48px;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home2-pie-chart-description {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home2-pie-chart-container {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 16px solid #74eda9;
+  border-radius: 200px;
+}
+
+.home2-pie-chart-heading {
+  color: #181818;
+  text-align: center;
+}
+
+.home2-pie-description {
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media (min-width: 756px) {
+  .home2-selects-piechart-container {
+    margin-top: 16px;
+  }
+
+  .home2-selects-piechart-heading {
+    font-size: 20px;
+  }
+
+  .home2-selects-piechart-description {
+    font-size: 14px;
+  }
+
+  .home2-selects-and-piecharts-containers {
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .home2-selects-container {
+    width: 45%;
+    margin-top: 4px;
+  }
+
+  .home2-select-label {
+    font-size: 16px;
+  }
+
+  .home2-select-option {
+    width: 40%;
+    margin-left: 24px;
+  }
+
+  .home2-pie-charts-container {
+    margin-top: 0px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .home2-pie-chart-container {
+    width: 80%;
+    height: 80px;
+    border: 8px solid #74eda9;
+  }
+
+  .home2-pie-chart-heading {
+    font-size: 18px;
+  }
+
+  .home2-pie-description {
+    font-size: 14px;
+  }
+}
+
+.home3-main-container {
+  width: 90%;
+  margin-top: 32px;
+}
+
+.home3-heading {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: 'Bree Serif';
+}
+
+.home3-form-container {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.home3-employer-contribution1 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.home3-label {
+  color: #231f20;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.hr-line3 {
+  width: 90%;
+  margin-top: 32px;
+}
+
+.home3-employer-contribution2 {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  color: #231f20;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.home3-update-button {
+  width: 100%;
+  height: 70px;
+  background-color: #1c34ba;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border: none;
+  outline: none;
+  margin-top: 48px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.home3-paragraph {
+  display: none;
+}
+
+.home4-main-container {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .home3-main-container {
+    width: 30%;
+    align-self: flex-start;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .home3-heading {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .home3-form-container {
+    width: 90%;
+    margin-top: 16px;
+    padding: 16px;
+  }
+
+  .home3-label {
+    font-size: 14px;
+  }
+
+  .hr-line3 {
+    width: 90%;
+    margin-top: 16px;
+  }
+
+  .home3-employer-contribution2 {
+    font-size: 14px;
+  }
+
+  .home3-update-button {
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    margin-top: 24px;
+  }
+  .home3-paragraph {
+    color: #3269a8;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+  }
+
+  .home4-main-container {
+    display: block;
+    margin-top: 48px;
+    padding-left: 16px;
+    border-left: 2px solid #3269a8;
+  }
+
+  .home4-p1 {
+    color: #909090;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+  }
+
+  .home4-span {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .home4-p2 {
+    color: #909090;
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .home4-paragraph {
+    color: #3269a8;
+    font-weight: 500;
+    text-align: left;
+    display: block;
+  }
+}
